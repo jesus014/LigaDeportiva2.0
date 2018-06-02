@@ -1,0 +1,12 @@
+﻿using LigaDeportiva.COMMON.Entidades;
+using System;
+using System.Collections.Generic;
+using System.Text;
+
+namespace LigaDeportiva.COMMON.Interfaces
+{
+    public interface IManejadorTorneo:IManejadorGenerico<Torneos>
+    {
+        int VerificarSiEsNumero(string text);
+    }
+}
