@@ -11,6 +11,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LigaDeportiva.DAL", "LigaDe
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LigaDeportiva.GUI", "LigaDeportiva.GUI\LigaDeportiva.GUI.csproj", "{B8F4A746-4998-421B-95BB-2C144AA7E4CC}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GeneradorDeDatos", "GeneradorDeDatos\GeneradorDeDatos.csproj", "{0BBD349C-3E61-43C3-8A98-4B1F372DD324}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{B8F4A746-4998-421B-95BB-2C144AA7E4CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B8F4A746-4998-421B-95BB-2C144AA7E4CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B8F4A746-4998-421B-95BB-2C144AA7E4CC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0BBD349C-3E61-43C3-8A98-4B1F372DD324}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0BBD349C-3E61-43C3-8A98-4B1F372DD324}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0BBD349C-3E61-43C3-8A98-4B1F372DD324}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0BBD349C-3E61-43C3-8A98-4B1F372DD324}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
